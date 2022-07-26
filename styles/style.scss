@@ -1,4 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// creating variables
+
+$button_color: #B85913;
+$light_background: blanchedalmond;
+
 h1 {
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: $light_background;
+}
+
+// nesting
+
+header {
+    
+    nav {
+        height: 5em;
+        width: 100%;
+        background-color: $light_background;
+        display: flex;
+        flex-direction: row;
+    }
+
 }

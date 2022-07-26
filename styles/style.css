@@ -1,4 +1,16 @@
 h1 {
   text-align: center;
   background-color: blanchedalmond;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+header nav {
+  height: 5em;
+  width: 100%;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */
