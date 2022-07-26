@@ -1,16 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center;
   background-color: blanchedalmond;
 }
 
-header {
-  margin: 0;
-  padding: 0;
-}
 header nav {
   height: 5em;
   width: 100%;
   background-color: blanchedalmond;
   display: flex;
   flex-direction: row;
+}
+
+button {
+  padding: 1em 2em;
+  background-color: rgb(178, 221, 158);
+  color: rgb(81, 112, 67);
+  border: none;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+button:hover {
+  color: #fff;
+  background-color: rgb(81, 112, 67);
 }/*# sourceMappingURL=style.css.map */

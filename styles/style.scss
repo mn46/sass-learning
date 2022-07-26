@@ -5,7 +5,8 @@ body {
 
 // creating variables
 
-$button_color: #B85913;
+$button_color: rgb(178, 221, 158);
+$hover_color: rgb(81, 112, 67);
 $light_background: blanchedalmond;
 
 h1 {
@@ -25,4 +26,19 @@ header {
         flex-direction: row;
     }
 
+}
+
+// using :hover selector
+
+button {
+    padding: 1em 2em;
+    background-color: $button_color;
+    color: $hover_color;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    &:hover {
+        color: #fff;
+        background-color: $hover_color;
+    }
 }
