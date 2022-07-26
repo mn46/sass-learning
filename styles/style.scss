@@ -14,19 +14,9 @@ h1 {
     background-color: $light_background;
 }
 
-// nesting
+// separating code and importing the separated file
 
-header {
-    
-    nav {
-        height: 5em;
-        width: 100%;
-        background-color: $light_background;
-        display: flex;
-        flex-direction: row;
-    }
-
-}
+@import "navbar";
 
 // using :hover selector
 

@@ -1,0 +1,13 @@
+// nesting
+
+header {
+    
+    nav {
+        height: 5em;
+        width: 100%;
+        background-color: $light_background;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
