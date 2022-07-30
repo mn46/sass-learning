@@ -1,3 +1,10 @@
+// an alternative to @import; has to be used always in the beginning
+@use "./mixins";
+
+// separating code and importing the separated file
+
+@import "./navbar";
+
 body {
     margin: 0;
     padding: 0;
@@ -8,17 +15,25 @@ body {
 $button_color: rgb(178, 221, 158);
 $hover_color: rgb(81, 112, 67);
 $light_background: blanchedalmond;
+$green_tea: rgb(81, 112, 67);
+$black_tea: rgb(36, 22, 15);
+$other_tea: rgb(229, 133, 173);
 
 h1 {
     text-align: center;
     background-color: $light_background;
 }
 
-// separating code and importing the separated file
 
-@import "navbar";
+#tea_categories {
+    @include mixins.flex_row;
+}
 
-// using :hover selector
+.black_tea {
+    @include mixins.small_banner_size();
+    @include mixins.centered_column();
+    background-color: $black_tea;
+}
 
 button {
     padding: 1em 2em;
@@ -27,6 +42,7 @@ button {
     border: none;
     font-size: 1em;
     text-transform: uppercase;
+    // using :hover selector
     &:hover {
         color: #fff;
         background-color: $hover_color;

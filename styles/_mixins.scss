@@ -1,0 +1,15 @@
+@mixin small_banner_size {
+    width: 30vw;
+    height: 20vw;
+}
+
+@mixin flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin centered_column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
