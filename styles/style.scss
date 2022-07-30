@@ -3,7 +3,7 @@
 
 // separating code and importing the separated file
 
-@import "./navbar";
+// @import "./navbar"; don't combine with @use............
 
 body {
     margin: 0;
@@ -26,7 +26,7 @@ h1 {
 
 
 #tea_categories {
-    @include mixins.flex_row;
+    @include mixins.flex_row();
 }
 
 .black_tea {

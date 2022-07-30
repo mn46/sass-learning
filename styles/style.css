@@ -8,14 +8,6 @@ h1 {
   background-color: blanchedalmond;
 }
 
-header nav {
-  height: 5em;
-  width: 100%;
-  background-color: blanchedalmond;
-  display: flex;
-  flex-direction: row;
-}
-
 #tea_categories {
   display: flex;
   flex-direction: row;
@@ -25,6 +17,8 @@ header nav {
   width: 30vw;
   height: 20vw;
   display: flex;
+  justify-content: center;
+  align-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgb(36, 22, 15);
